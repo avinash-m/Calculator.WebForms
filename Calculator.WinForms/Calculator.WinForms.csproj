@@ -68,9 +68,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CalculatorForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculatorForm.aspx.cs">
+      <DependentUpon>CalculatorForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalculatorForm.aspx.designer.cs">
+      <DependentUpon>CalculatorForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +89,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Calculator.ConsoleApp.1.0.0.3\MathLibrary\MathLibrary.csproj">
+      <Project>{b6014551-4eeb-49b5-86f3-a2b7e8f5cf6e}</Project>
+      <Name>MathLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
