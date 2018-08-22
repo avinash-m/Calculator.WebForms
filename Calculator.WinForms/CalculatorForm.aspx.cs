@@ -2,7 +2,7 @@
 using System.Web.UI;
 using MathLibrary;
 
-namespace Calculator.WinForms
+namespace Calculator.WebForms
 {
     public partial class CalculatorForm : System.Web.UI.Page
     {

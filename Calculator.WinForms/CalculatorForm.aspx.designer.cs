@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Calculator.WinForms {
+namespace Calculator.WebForms {
     
     
     public partial class CalculatorForm {

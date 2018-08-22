@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CalculatorForm.aspx.cs" Inherits="Calculator.WinForms.CalculatorForm" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CalculatorForm.aspx.cs" Inherits="Calculator.WebForms.CalculatorForm" %>
 
 <!DOCTYPE html>
 

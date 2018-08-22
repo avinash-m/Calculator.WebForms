@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WinForms", "Calculator.WinForms\Calculator.WinForms.csproj", "{181B803A-D9D8-40DE-9DBD-865889B8A9D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.WebForms", "Calculator.WinForms\Calculator.WebForms.csproj", "{181B803A-D9D8-40DE-9DBD-865889B8A9D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "..\Calculator.ConsoleApp.1.0.0.3\MathLibrary\MathLibrary.csproj", "{B6014551-4EEB-49B5-86F3-A2B7E8F5CF6E}"
 EndProject
